@@ -92,7 +92,6 @@ const VSMSPlatform = () => {
 
   return (
     <div className="vsms-root">
-      {/* COMPACT HEADER */}
       <nav className="navbar">
         <div className="logo-container">
           <img src="/COERS.png" alt="COERS Logo" />
@@ -104,10 +103,8 @@ const VSMSPlatform = () => {
         </div>
       </nav>
 
-      {/* HERO + DASHBOARD IN ONE VIEW */}
       <main className="compact-container">
         
-        {/* LEFT: Info */}
         <section className="info-panel">
           <div className="hero-compact">
             <h1>Vehicle Speed Monitoring <span className="text-gradient">AI System</span></h1>
@@ -148,7 +145,6 @@ const VSMSPlatform = () => {
           )}
         </section>
 
-        {/* RIGHT: Terminal */}
         <aside className="terminal-compact">
           <h2>Analysis Terminal</h2>
 
@@ -210,7 +206,6 @@ const VSMSPlatform = () => {
         </aside>
       </main>
 
-      {/* COMPACT FOOTER */}
       <footer className="footer-compact">
         <div className="social-compact">
           <a href="https://www.linkedin.com/company/coers/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
