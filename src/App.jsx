@@ -5,7 +5,7 @@ import './App.css';
 const VSMSPlatform = () => {
   const [video, setVideo] = useState(null);
   const [distance, setDistance] = useState('');
-  const [direction, setDirection] = useState(''); // Empty by default
+  const [direction, setDirection] = useState(''); 
   const [loading, setLoading] = useState(false);
   const [downloadUrl, setDownloadUrl] = useState(null);
   const [error, setError] = useState(null);
